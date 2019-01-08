@@ -1,5 +1,5 @@
 [Unit]
-Description=The Things Network Gateway
+Description=The Yodiwo LoRa Gateway
 
 [Service]
 WorkingDirectory=/opt/yodiwo-gateway/packet_forwarder/lora_pkt_fwd/

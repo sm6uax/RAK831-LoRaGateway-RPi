@@ -13,7 +13,7 @@ SCRIPT_DIR=$(pwd)
 VERSION="master"
 if [[ $1 != "" ]]; then VERSION=$1; fi
 
-echo "The Things Network Gateway installer"
+echo "The Yodiwo LoRa Gateway installer"
 echo "Version $VERSION"
 
 # Request gateway configuration data
