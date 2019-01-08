@@ -1,0 +1,12 @@
+[Unit]
+Description=The Things Network Gateway
+
+[Service]
+WorkingDirectory=/opt/yodiwo-gateway/packet_forwarder/lora_pkt_fwd/
+ExecStart=/opt/tyodiwo-gateway/packet_forwarder/lora_pkt_fwd/start.sh
+SyslogIdentifier=yodiwo-gateway
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
