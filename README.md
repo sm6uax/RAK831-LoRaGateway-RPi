@@ -15,8 +15,8 @@ step2 : Clone the installer and start the installation
 
 step3 : Next you will see some messages as follow. Just hit the Enter key to keep default or enter your information if you want.
 
-      Host name [ttn-gateway]:
-      Descriptive name [ttn-rak831]:
+      Host name [yodiwo-gateway]:
+      Descriptive name [yodiwo-rak831]:
       Latitude [0]: 
       Longitude [0]: 
       Altitude [0]: 
