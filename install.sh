@@ -103,7 +103,7 @@ LOCAL_CONFIG_FILE=$INSTALL_DIR/packet_forwarder/lora_pkt_fwd/local_conf.json
 
 #config local_conf.json
 
-    echo -e "{\n\t\"gateway_conf\": {\n\t\t\"gateway_ID\": \"$GATEWAY_EUI\",\n\t\t\"server_address\": \"lorawan.yodiwo.com\",\n\t\t\"serv_port_up\": 1680,\n\t\t\"serv_port_down\": 1680,\n\t\t\"serv_enabled\": true,\n\t\t\"ref_latitude\": $GATEWAY_LAT,\n\t\t\"ref_longitude\": $GATEWAY_LON,\n\t\t\"ref_altitude\": $GATEWAY_ALT \n\t}\n}" >$LOCAL_CONFIG_FILE
+    echo -e "{\n\t\"gateway_conf\": {\n\t\t\"gateway_ID\": \"$GATEWAY_EUI\",\n\t\t\"server_address\": \"lorawan.yodiwo.com\",\n\t\t\"serv_port_up\": 1680,\n\t\t\"serv_port_down\": 1680,\n\t\t\"serv_enabled\": true,\n\t\t\"autoquit_threshold\": 5,\n\t\t\"ref_latitude\": $GATEWAY_LAT,\n\t\t\"ref_longitude\": $GATEWAY_LON,\n\t\t\"ref_altitude\": $GATEWAY_ALT \n\t}\n}" >$LOCAL_CONFIG_FILE
 
 echo "Gateway EUI is: $GATEWAY_EUI"
 echo "The hostname is: $NEW_HOSTNAME"
