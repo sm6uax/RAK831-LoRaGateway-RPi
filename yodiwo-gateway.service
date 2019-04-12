@@ -5,7 +5,7 @@ Description=The Yodiwo LoRa Gateway
 WorkingDirectory=/opt/yodiwo-gateway/packet_forwarder/lora_pkt_fwd/
 ExecStart=/opt/yodiwo-gateway/packet_forwarder/lora_pkt_fwd/start.sh
 SyslogIdentifier=yodiwo-gateway
-Restart=on-failure
+Restart=always
 RestartSec=5
 
 [Install]
